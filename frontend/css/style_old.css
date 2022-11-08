@@ -9,29 +9,29 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
-  
   }
   .header {
-    flex-basis: 100%;
+    height: 250px;
+    min-height: 50px;
     background-color: #f0e6da;
     display: flex;
+    align-items: center; 
     justify-content: center;
-    padding: 20px;
+    align-content: center;
+    justify-items: center;
   }
-  .menu {
-    flex-basis: 100%;
-    background-color: rgb(73, 6, 6);
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+  .logoNavBar {
+    width: 180px;
   }
+  /* Inicio do menu */
+  /* Cor da barra de navegação */
   .topnav {
     padding-left: 12px;
     background-color: rgb(73, 6, 6);
     overflow: hidden;
    }
-   .topnav a {
+  /* Style dos links */
+  .topnav a {
     float:left;
     display: block;
     color: #f2f2f2;
@@ -47,6 +47,7 @@
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+    
   }
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
@@ -67,9 +68,8 @@
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
-      right: 0%;
+      right: 0;
       top: 0;
-      
     }
     .topnav.responsive a {
       float: none;
@@ -78,67 +78,108 @@
     }
     
   }
-  .mainContent {
+/* Fim do menu */
+.gridContainer {
+    padding: 50px;
+    background-color: #fff;
     display: flex;
-    flex-wrap: wrap;
+    gap: 50px;
     align-items: center;
-    justify-content: center;
-    padding: 10px;
-    gap: 20px;
-    margin-bottom: 40px;
-    flex: 1 0 auto;
-  }
-  .items {
-    flex-basis: 350px;
-    height: 230px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+}
+.textFull {
+   height: 300px;
+   padding: 50px 250px 50px 250px;
+}
+.imageFull{
+  background-image: url("../img/full_1920x641.jpg");
+  background-color: #000000;
+  height: 300px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.mainContent{
+  width: 100vh;
+}
+.mainContent2{
+  width: 100vh;
+  padding: 30px;
+  background-color: #ffff00;
+}
+.titleCategoria{
+  font-size: 30px;
+  color: #5c5c5c;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  text-align: center;
+  text-transform: uppercase
+}
+.descricaoCategoria{
+  font-size: 13px;
+  color: #5c5c5c;
+  margin-top: 20px;
+  line-height: 22px;;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+  .gridContainer {
+    padding: 30px;
+    background-color: #fff;
+    gap: 30px;
+    display: grid;
   }
   .titleCategoria{
-    font-size: 30px;
-    color: #5c5c5c;
-    font-family: 'Open Sans', sans-serif;
-    display: block;
-    text-align: center;
-    text-transform: uppercase
+    width: 500px;
+    font-size: 20px;
   }
   .descricaoCategoria{
-    font-size: 13px;
+    width: 500px;
+    font-size: 11px;
     color: #5c5c5c;
     margin-top: 20px;
-    line-height: 22px;;
+    line-height: 20px;;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
   }
-  .itemFull{
-    flex-basis: 100%;
-    height: 600px;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-   
-    
+}
+.footer {
+  width: 100%;
+  min-height: 40px;
+  background-color: #292929;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 15px;
+  font-size: 10px;
+}
+  .logoFooter {
+    width: 50px;
   }
-  .footer {
-    flex-basis: 100%;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
+  
+.fa {
+  color: #fff;
+  font-size: 15px;
+}
+.iconeRedeSocial{
+  display: flex;
+  padding: 25px;
+  gap: 20px;
+ }
+  
+.enderecoLojas{
+ 
+  padding-left: 22px;
+  color: rgb(198, 198, 198);
+  
 
-  .fa {
-    color: #fff;
-    font-size: 15px;
-  }
-  .iconeRedeSocial{
-    display: flex;
-    padding: 25px;
-    gap: 20px;
-   }
+} 
+
+
+
+
+
+

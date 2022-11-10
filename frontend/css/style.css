@@ -150,6 +150,20 @@
   .itemsMosaicoMenor{
     display: grid;
     gap: 10px;
+  }
+  .produtos {
+    border: #ffffff solid 1px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-basis: 510px;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    
+  }
+  .nomeProdutos{
+    max-width: 300px;
+    width: 300px;
     
   }
   .footer {

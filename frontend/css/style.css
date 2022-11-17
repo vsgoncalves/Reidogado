@@ -95,7 +95,7 @@
   }
   .titleCategoria{
     font-size: 30px;
-    color: #5c5c5c;
+    color: rgb(121, 4, 4);
     font-family: 'Open Sans', sans-serif;
     display: block;
     text-align: center;
@@ -148,8 +148,7 @@
     align-items: center;
     align-content: center;
     gap: 10px;
-    
-    
+    border-radius: 20px;
   }
   .nomeProdutos{
     max-width: 300px;
@@ -157,16 +156,16 @@
     
   }
   .form{
-    margin: 0px 0px 0px 32px;
+    margin: 80px 0px 0px 32px;
     width: 510px;
-    height: 400px;
+    height: 100%;
     background-color: #f3f3f3;
     border-radius: 20px;
   }
 
   .titleSubCategoria{
     font-size: 20px;
-    color: rgb(121, 4, 4);;
+    color: rgb(121, 4, 4);
     font-family: 'Open Sans', sans-serif;
     display: block;
     margin: 40px 10px 10px 0px;
@@ -256,39 +255,38 @@
   align-items: center;
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  form .textarea textarea{
   height: 100px;
   width: 90%;
-  margin: 25px;
+  margin: 5px 0px 25px 25px;
   outline: none;
   color: #a3a3a1;
   padding: 10px;
   font-size: 12px;
   resize: none;
   overflow: hidden;
+  border-style: hidden;
 }
 
 form .text input{
   height: 100%;
-  width: 19%;
+  width: 90%;
   outline: none;
   color: #a3a3a1;
   padding: 10px;
   font-size: 12px;
+  margin: 5px 0px 25px 25px;
+  border-style: hidden;
+}
+
+
+form .textForm{
+  color: rgb(126, 7, 7);
+  font-size: 12px;
+  margin-left: 35px;
+}
+
+.button{
+  margin: 0px 0px 25px 0px;
 }
 

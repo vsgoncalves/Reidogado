@@ -127,22 +127,34 @@
       <div class="form">
         <h3 class="titleCategoria">fale conosco</h3>
         <form id="cadastro" name="cadastro" method="post" action="enviapesquisa.php">
-          <div >
-            Mensagem
-          </div>
-          <div class="Perguntas">
-            <div class="textarea">
-              <textarea onkeyup="limite_textarea(this.value)" data-ls-module="charCounter" maxlength="200" name="comentario" cols="30" placeholder="Digite a Mensagem" ></textarea>
-            </div>
-          </div>
-          <div >
+          <div class="textForm">
             Nome
           </div>
-          <div class="Perguntas">
-            <div class="input">
-              <input type="text" name="nome" placeholder="Seu Nome">
-            </div>
+          <div class="text">
+            <input type="text" name="nome" placeholder="Seu Nome">
           </div>
+          <div class="textForm">
+            Telefone
+          </div>
+          <div class="text">
+            <input type="text" name="nome" placeholder="24 992690809">
+          </div>
+          <div class="textForm">
+            E-mail
+          </div>
+          <div class="text">
+            <input type="text" name="nome" placeholder="seunome@seuemail.com.br">
+          </div>
+          <div class="textForm">
+            Mensagem
+          </div>
+          <div class="textarea">
+            <textarea onkeyup="limite_textarea(this.value)" data-ls-module="charCounter" maxlength="200" name="comentario" cols="30" placeholder="Digite a Mensagem" ></textarea>
+          </div>
+          <div class="textForm">
+            <button class="button" action="">Enviar</button>
+          </div>
+          
         </form>
 
 
@@ -170,11 +182,19 @@
           <h3 class="titleSubCategoria">Horário de atendimento:</h3>
             <p class="descricaoSubCategoria">
               <i class="fa fa-clock-o" style="font-size:20px;color:rgb(121, 4, 4);"></i>
-              Terça a Sábado | 9:00h - 18:30h
+              Terça a Quinta | 10:00h às 19:00h
             </p>
             <p class="descricaoSubCategoria">
               <i class="fa fa-clock-o" style="font-size:20px;color:rgb(121, 4, 4);"></i>
-              Domingo | 9:00 - 13:30h
+              Sexta | 10:00 às 19:30h
+            </p>
+            <p class="descricaoSubCategoria">
+              <i class="fa fa-clock-o" style="font-size:20px;color:rgb(121, 4, 4);"></i>
+              Sábado | 9:00h às 18:30h
+            </p>
+            <p class="descricaoSubCategoria">
+              <i class="fa fa-clock-o" style="font-size:20px;color:rgb(121, 4, 4);"></i>
+              Domingo | 9:00h às 14:00h
             </p>
           <h3 class="titleSubCategoria">Onde nos encontrar:</h3>
             <p class="endereco">

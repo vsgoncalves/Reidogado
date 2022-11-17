@@ -111,6 +111,7 @@
     text-align: justify;
   }
   .imagemFull {
+    
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -123,4 +124,75 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+  }
+  .itemsMosaico {
+    display: flex;
+    flex-basis: 500px;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px 10px 10px 10px;
+    row-gap: 10px;
+  }
+  .itemsMosaicoMenor{
+    display: grid;
+    gap: 10px;
+  }
+  .produtos {
+    border: #ffffff solid 1px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-basis: 510px;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    
+    
+  }
+  .nomeProdutos{
+    max-width: 300px;
+    width: 300px;
+    
+  }
+  .form{
+    margin: 0px 0px 0px 32px;
+    width: 510px;
+    height: 400px;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+  }
+
+  .titleSubCategoria{
+    font-size: 20px;
+    color: rgb(121, 4, 4);;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin: 40px 10px 10px 0px;
+  }
+  
+  .descricaoSubCategoria{
+    font-size: 13px;
+    color: #5c5c5c;
+    line-height: 22px;;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding: 0px 0px 10px 0px;
+  }
+  
+  .endereco{
+    font-size: 13px;
+      color: #5c5c5c;
+      line-height: 22px;;
+      font-family: 'Open Sans', sans-serif;
+      text-align: justify;
+  }
+  .telefone{
+    font-size: 13px;
+      color: #5c5c5c;
+      line-height: 22px;;
+      font-family: 'Open Sans', sans-serif;
+      text-align: justify;
+      padding: 0px 0px 10px 15px;
   }

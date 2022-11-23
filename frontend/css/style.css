@@ -277,3 +277,25 @@ form .textForm{
 .button{
   margin: 0px 0px 25px 0px;
 }
+
+
+.nomeProdutos a{
+  font-size: 13px;
+    color: rgb(121, 4, 4);
+    font-family: 'Open Sans', sans-serif bold;
+    text-decoration: none;
+
+}
+
+.nomeProdutos a:hover{
+  font-size: 14px;
+  transition-duration: 0.1s;
+ }
+
+ .precoProdutos{
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(121, 4, 4);
+  font-family: 'Open Sans', sans-serif;
+   
+ }

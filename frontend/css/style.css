@@ -111,7 +111,7 @@
     text-align: justify;
   }
   .imagemFull {
-    
+    margin-top: 60px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -202,10 +202,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
   }
  
-  .itemFooter {
+  itemFooter {
     order: #ffffff solid 1px;
     display: flex;
     flex-basis: 520px;
@@ -217,7 +217,7 @@
   }
   
 
-  .tituloFooter{
+  tituloFooter{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -226,13 +226,18 @@
   }
 
   
- .textoFooter2{
+ textoFooter2{
   padding: 0px 0px 20px 0px;
   max-width:200px;
   font-size: 10px;
   
 }
-
+.iconeRedeSocial{
+  display: flex;
+  padding: 20px 0px 0px 0px;
+  gap: 20px;
+  align-items: center;
+ }
 
 .fa {
   color: #fff;
@@ -245,12 +250,7 @@
   color: rgb(195, 199, 0);
 }
 
-.iconeRedeSocial{
-  display: flex;
-  padding: 20px 0px 0px 0px;
-  gap: 20px;
-  align-items: center;
- }
+
 
  form .textarea textarea{
   height: 100px;
